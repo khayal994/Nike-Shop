@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: fixed;
+    display: flex;
+    background-color: rgb(248, 241, 241);
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.nike{
+    background-image: url(My\ project\ \(3\).png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    filter: drop-shadow(2px 2px 2px);
+}
+input{
+    border-radius: 40px;
+    font-size: 15px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+    top: 10px;
+    /* filter: drop-shadow(1px 1px 1px); */
+    background: transparent;
+}
+i{
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 1px);
+}
+.desing{
+    background-color: rgb(105, 5, 177);
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 15px;
+}
+.head{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 29px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.nike1{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 300px;
+    justify-content: space-evenly;
+}
+.nikephoto12{
+    background-image: url(My\ project\ \(5\).png);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+}
+.nikephoto13{
+    background-image: url(My\ project\ \(6\).png);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+}
+.nikephoto14{
+    background-image: url(My\ project\ \(7\).png);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+}
+.nikephoto{
+    background-image: url(download.png);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+}
+.nikephoto1{
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.p1{
+    color: black;
+    text-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.s13{
+    background-color: rgb(216, 216, 216);
+}
+.p2{
+    color: rgb(133, 130, 130);
+    text-shadow: none;
+}
+.p3{
+    color: black;
+    text-shadow: none;
+}
+.nikephoto2{
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: 20px;
+}
+.nikephoto16{
+    background-image: url(My\ project\ \(8\).png);
+    width: 340px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+    margin-left: 20px;
+}
+.nikephoto17{
+    background-image: url(My\ project\ \(9\).png);
+    width: 340px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+    margin-left: 20px;
+}
+.nikephoto18{
+    background-image: url(My\ project\ \(11\).png);
+    width: 340px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(2px 2px 2px);
+    margin-left: 20px;
+}
