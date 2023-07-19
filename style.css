@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     position: fixed;
@@ -52,6 +53,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin: 15px;
+    flex-shrink: 0;
 }
 .head{
     display: flex;
@@ -161,4 +163,53 @@ a{
     background-size: cover;
     filter: drop-shadow(2px 2px 2px);
     margin-left: 20px;
+}
+html,body{
+    height: 100%;
+}
+.item1 {
+    grid-area: header;
+    background-image: url(_117751671_satan-shoes1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item2 {
+    grid-area: menu;
+    background-image: url(47e2e698-0b5c-4c81-9044-95baf92ccad6.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.item3 {
+    grid-area: main;
+    background-image: url(josh-redd-Q9S0w7Bhx3A-unsplash-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item4 {
+    grid-area: right;
+    background-image: url(models.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.item5 {
+    grid-area: footer;
+    background-image: url(Darya-Klishina-brings-smiles-with-new-Nike--Bra--advertising-campaign-981180437.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header right'
+    'menu menu main main main right'
+    'menu menu footer footer footer footer';
+    background-color: rgb(23, 19, 19);
+    gap: 10px;
+    height: 100%;
+    background-attachment: fixed;
 }
